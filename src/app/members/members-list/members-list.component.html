@@ -1,0 +1,15 @@
+
+<div class="container">
+    <div  class="content-center brand">
+      <h3>Welcome Member-list</h3>
+    </div>
+    <button class="btn btn-primary btn-icon btn-round" text="" [routerLink]="['/members/memberdetails/', 1]" type="button">
+      <i class=" list-inline-item fa fa-user"></i>
+      Member 1
+    </button>
+    <button class="btn btn-primary btn-icon btn-round" text="Member 2" [routerLink]="['/members/memberdetails/', 2]" type="button">
+      <i class=" list-inline-item fa fa-user"></i>
+      Member 2
+    </button>
+</div>
+<router-outlet></router-outlet>
